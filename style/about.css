@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#icon {
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #a393eb;
+  padding: 20px 100px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background: white;
+  padding: 10px 100px;
+}
+h3 {
+  font-family: var(--secondary-font-family);
+}
+
+.btn-branding {
+  line-height: 30px;
+  padding: 15px 30px;
+  transition: all 150ms ease-in-out;
+}
+.btn-skintype {
+  background-color: var(--secondary-color);
+  line-height: 30px;
+  padding: 15px 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.logo {
+  max-height: 150px;
+  max-width: 140px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.active {
+  color: var(--primary-color) !important;
+}
+footer {
+  margin-bottom: 60px;
+}
+footer .email-link {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  display: block;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: #38b6ff;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+footer .social-links a:hover {
+  background: white;
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.contact-box h3 {
+  margin-bottom: 0;
+}
+
+.certificate {
+  display: flex;
+  justify-content: center;
+}
+
+.certificate-image {
+  box-shadow: var(--box-shadow);
+  margin: 0px 10px 5px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  p,
+  h2 {
+    margin-top: -40;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  footer.contact-box {
+    padding: 30px;
+  }
+}
