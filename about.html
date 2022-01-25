@@ -19,23 +19,30 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="style/projects.css" />
+    <link rel="stylesheet" href="style/about.css" />
 </head>
 <style>
     body {
+        overflow-x: hidden;
+        overflow-y: hidden;
         top: 0;
         left: 0;
         max-width: 100%;
         height: auto;
-        background-repeat: no-repeat;
+        overflow: hidden;
         background-size: cover;
         position: relative;
-        background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+        background: linear-gradient(120deg, #89f7fe 10%, #66a6ff 100%);
+          height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     }
 </style>
 
 <body>
+    <div class="entire">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
@@ -74,9 +81,9 @@
 
     <div class="container certificates">
         <div class="row">
-            <div class="col-md-4 certificate-image"><img src="images/basic.png" class="img-fluid"></div>
-            <div class="col-md-4 certificate-image"><img src="images/plus.png" class="img-fluid"></div>
-            <div class="col-md-4 certificate-image"><img src="images/react.png" class="img-fluid"></div>
+            <div class="col-md-4 certificate-image"><img src="images/basic.png" class="img-fluid" width="300px"></div>
+            <div class="col-md-4 certificate-image"><img src="images/plus.png" class="img-fluid" width="300px"></div>
+            <div class="col-md-4 certificate-image"><img src="images/react.png" class="img-fluid" width="300px"></div>
         </div>
     </div>
     </div>
@@ -94,6 +101,7 @@
         </div>
     </footer>
     </div>
+</div>
 </body>
 
 </html>
