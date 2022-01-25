@@ -6,6 +6,42 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+#contact {
+  font-size: 14px;
+  font-family: monospace;
+  padding-top: 20px;
+}
+
+button {
+  justify-content: space-between;
+  background-color: #38b6ff;
+  margin-left: 50px;
+  margin-right: 50px;
+  transition: all 0.5s ease;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #38b6ff;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 h1 {
   font-size: 45px;
   font-family: "Ubuntu", sans-serif;
@@ -16,26 +52,14 @@ h1 {
   margin-top: 40px;
 }
 h2 {
-  font-size: 35px;
+  font-size: 20px;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-    background: white;
+  background: rgb(122, 235, 182);
   padding: 10px 100px;
 }
 h3 {
   font-family: var(--secondary-font-family);
-}
-
-.btn-branding {
-  line-height: 30px;
-  padding: 15px 30px;
-  transition: all 150ms ease-in-out;
-}
-.btn-skintype {
-  background-color: var(--secondary-color);
-  line-height: 30px;
-  padding: 15px 30px;
-  transition: all 150ms ease-in-out;
 }
 
 .logo {
@@ -121,5 +145,26 @@ footer .contact-box {
 
   footer.contact-box {
     padding: 30px;
+  }
+
+  button {
+    justify-content: space-between;
+    background-color: #38b6ff;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+    transition: all 0.5s ease;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 5px;
+    outline: none;
+    border-radius: 2px;
+    text-decoration: none;
   }
 }
